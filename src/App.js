@@ -3,11 +3,7 @@ import React, {Component,Fragment} from 'react';
 
 class App extends Component{
   render(){
-  return (
-    <Fragment>
-      <h1>After cleanup</h1>
-    </Fragment>
-  );
+  return React.createElement('div',{className: 'App'},React.createElement('h1',null,'React code without jsx and pure JS!'));
 }
 }
 
